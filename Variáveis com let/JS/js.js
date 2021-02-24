@@ -23,3 +23,17 @@ console.log(contaDuplicada);
 //ou desse jeito
 
 console.log(primeiroNumero + segundoNumero);
+
+//diferença entre var e let
+
+//pode redeclarar a variável com var.
+var nome2 = 'Carla';
+var nome2 = 'Maria';
+
+console.log(nome2);
+
+//não precisa redeclarar let.
+let nome3 = 'Ester';
+nome3 = 'Ana';
+
+console.log(nome3);
